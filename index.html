@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Checkout Page</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>checkout</h1>
+  </header>
+
+  <!-- ORDER-DETAILS -->
+  <section id="order-sect">
+    <div class="order-det" id="order-1">
+      <img src="/photo1.png" alt="item1">
+      <div class="item-det" id="item-1">
+        <p class="item-name">vintage backbag</p>
+        <div class="price-det">
+          <p class="item-price">$54.99</p>
+          <p class="item-o-price">$94.99</p>
+        </div>
+        <div class="qty">
+          <span class="material-icons">remove_box</span>
+          <p class="item-qty">1</p>
+          <span class="material-icons">add</span>
+        </div>
+      </div>
+    </div>
+    <div class="order-det" id="order-2">
+      <img src="/photo2.png" alt="item2">
+      <div class="item-det" id="item-2">
+        <p class="item-name" id="item-name-2">levi shoes</p>
+        <div class="price-det" id="price-det-2">
+          <p class="item-price">$74.99</p>
+          <p class="item-o-price">$124.99</p>
+        </div>
+        <div class="qty" id="qty-2">
+          <span class="material-icons">remove_box</span>
+          <p class="item-qty">1</p>
+          <span class="material-icons">add</span>
+        </div>
+      </div>
+
+    <div id="pymt-det">
+      <hr>
+      <div class="f-det">
+        <p>shipping</p>
+        <p class="f-price">$19</p>
+      </div>
+
+      <hr>
+      <div class="f-det">
+        <p>total</p>
+        <p class="f-price">$149.98</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- PAYMENT-DETAILS --> 
+  <section id="fill-det">
+    <div id="cntct-info">
+      <p class="heading">contact information</p>
+      <div class="detail" id="email">
+        <label for="email">e-mail</label>
+        <div class="info-box">
+          <span class="material-icons">email</span>
+          <input type="email" name="email" id="email" placeholder="Enter your Email..." required = "true">
+        </div>
+      </div>
+
+      <div class="detail" id="phone">
+        <label for="phone">phone</label>
+        <div class="info-box">
+          <span class="material-icons">phone</span>
+          <input type="tel" name="phone" id="phone" placeholder="Enter your Phone..." required = "true">
+        </div>
+      </div>
+    </div>
+
+    <div id="add-det">
+      <p class="heading">shipping address</p>
+      <div class="detail" id="name">
+        <label for="name">full name</label>
+        <div class="info-box">
+          <span class="material-icons">account_circle</span>
+          <input type="text" name="name" id="name" placeholder="Rodney Cotton" required = "true">
+        </div>
+      </div>
+
+      <div class="detail" id="address">
+        <label for="address">address</label>
+        <div class="info-box">
+          <span class="material-icons">home</span>
+          <input type="text" name="address" id="address" placeholder="Your Address..." required = "true">
+        </div>
+      </div>
+
+      <div class="detail" id="city">
+        <label for="city">city</label>
+        <div class="info-box">
+          <span class="material-icons">location_city</span>
+          <input type="text" name="city" id="city" placeholder="Your City..." required = "true">
+        </div>
+      </div>
+
+      <div class="detail" id="country">
+        <label for="country">country</label>
+        <div class="info-box">
+          <span class="material-icons">public</span>
+          <select name="your-country" id="your-country">
+            <option value="Name">Your Country...</option>
+            <option value="India">India</option>
+            <option value="Algeria">Algeria</option>
+            <option value="France">France</option>
+            <option value="Czech Republic">Czech Republic</option>
+            <option value="USA">USA</option>
+            <option value="Ireland">Ireland</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="detail" id="post-code">
+        <label for="postal-code">postal code</label>
+        <div class="info-box">
+          <span class="material-icons">markunread_mailbox</span>
+          <input type="text" name="postal code" id="postal-code" placeholder="Your Postal Code..." required = "true">
+        </div>
+      </div>
+
+      <div class="check">
+        <input type="checkbox" name="save">
+        <label for="save" id="save" required = "true">Save this information for next time</label>
+      </div>
+
+      <button type="submit" id="btn-continue">continue</button>
+    </div>
+  </section>
+
+   <!--Footer-->
+   <footer>created by U.S.Khokhar - devChallenges.io</footer>
+
+</body>
+</html>

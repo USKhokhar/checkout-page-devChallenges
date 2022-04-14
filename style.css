@@ -1,0 +1,475 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* header */
+header{
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 43.88px;
+}
+
+/* ORDER DETAILS */
+
+#order-sect{
+    float: right;
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 16px;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.order-det {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.order-det > img{
+    width: 42%;
+    height: 26%;
+    margin-top: 2.5%;
+    border-radius: 16px;
+}
+
+.item-det{
+    margin-left: 0%;
+}
+
+.item-name{
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #4E5150;
+    margin-top: 15%;
+}
+
+.price-det{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: -15%;
+    margin-left: -15%;
+}
+
+.item-price{
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #f2994a;
+}
+
+.item-o-price{
+    font-size: 10px;
+    line-height: 12.19px;
+    color: #4E5150;
+    text-decoration: line-through;
+}
+
+.qty{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.material-icons{
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    color: #828282;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 18%;
+}
+
+/* corrections */    
+
+#order-2{
+    margin-left: 2.8%;
+    margin-right: 10%;
+    margin-top: 3.5%;
+}
+
+#item-2{
+    margin-left: 7.5%;
+}
+
+#pymt-det{
+    flex-grow: 2;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #bdbdbd;
+    background-image: linear-gradient(to right, #ccc, #bdbdbd, #ccc);
+    margin-left: 2%;
+}
+
+
+.f-det { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.f-det p{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* PAYMENT DETAILS */
+
+#fill-det{
+    margin-left: 12.5%;
+    margin-top: 3%;
+}
+
+.heading{
+    font-size: 18px;
+    line-height: 22px;
+    color: #333;
+    transform: rotate(-0.02deg);
+}
+
+.detail > label{ 
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #4f4f4f;
+    transform: rotate(-0.02deg);
+    margin-left: 1%;
+}
+
+.info-box{
+    display: flex;
+    width: 40%;
+}
+
+.info-box > input, select {
+    flex-grow: 2;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 40px;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+input::placeholder, select{
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+#name::placeholder{
+    color: #333;
+    padding-left: 10%;
+}
+
+.info-box > .material-icons{
+    background-color: transparent;
+    margin-top: 1.2%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+#add-det{
+    margin-top: 5%;
+}
+
+.check{
+    display: flex;
+}
+
+input[type = "checkbox"]{
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#save{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
+    margin-top: 3%;
+}
+
+button{
+    border: transparent;
+    background: #F2994A;
+    border-radius: 12px;
+    margin-left: 30%;
+    font-family: 'Montserrat' sans-serif;
+    width: 10%;
+    height: 42px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #bdbdbd;
+    font-weight: 700, bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 375px){
+    /* body */
+    body{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    /* header */
+    header{
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    h1{
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+
+    /* ORDER DETAILS */
+
+    #order-sect{
+        width: 93%;
+        background-color: #f2f2f2;
+        border-radius: 16px;
+        margin-left: 2.5%;
+    }
+
+    .order-det {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .order-det > img{
+        width: 42%;
+        height: 26%;
+        margin-top: 2.5%;
+        border-radius: 16px;
+    }
+
+    .item-det{
+        margin-left: 0%;
+    }
+
+    .item-name{
+        font-size: 12px;
+        line-height: 14.63px;
+        color: #4E5150;
+        margin-top: 15%;
+    }
+
+    .price-det{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin-top: -15%;
+        margin-left: -15%;
+    }
+
+    .item-price{
+        font-size: 14px;
+        line-height: 17.07px;
+        color: #f2994a;
+    }
+
+    .item-o-price{
+        font-size: 10px;
+        line-height: 12.19px;
+        color: #4E5150;
+        text-decoration: line-through;
+    }
+
+    .qty{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+
+    .material-icons{
+        border-radius: 4px;
+        background-color: #e0e0e0;
+        color: #828282;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        margin-top: 18%;
+    }
+
+    /* corrections */    
+
+    #order-2{
+        margin-left: 2.8%;
+        margin-right: 10%;
+        margin-top: 3.5%;
+    }
+
+    #item-2{
+        margin-left: 7.5%;
+    }
+
+    #pymt-det{
+        flex-grow: 2;
+    }
+
+    hr{
+        border: 0;
+        height: 1px;
+        background: #bdbdbd;
+        background-image: linear-gradient(to right, #ccc, #bdbdbd, #ccc);
+        margin-left: 2%;
+    }
+
+
+    .f-det { 
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+    }
+
+    .f-det p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    /* PAYMENT DETAILS */
+
+    #fill-det{
+        margin-left: 3.2%;
+        margin-top: 10%;
+    }
+
+    .heading{
+        font-size: 14px;
+        line-height: 17.07px;
+        color: #333;
+        transform: rotate(-0.02deg);
+    }
+
+    .detail > label{ 
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 12.19px;
+        color: #4f4f4f;
+        transform: rotate(-0.02deg);
+        margin-left: 4%;
+    }
+    
+    .info-box{
+        display: flex;
+    }
+
+    .info-box > input, select {
+        flex-grow: 2;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+        height: 40px;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+
+    input::placeholder, select{
+        font-size: 12px;
+        line-height: 15px;
+        color: #828282;
+        font-weight: 600;
+        padding-left: 10%;
+    }
+
+    #name::placeholder{
+        color: #333;
+        padding-left: 10%;
+    }
+
+    .info-box > .material-icons{
+        /* padding-left: 5%; */
+        background-color: transparent;
+        margin-top: 3.5%;
+        margin-left: 4%;
+        position: absolute;
+    }
+
+    #add-det{
+        margin-top: 12%;
+    }
+
+    .check{
+        display: flex;
+    }
+
+    input[type = "checkbox"]{
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-left: 3.5%;
+        margin-top: 8%;
+    }
+
+    #save{
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        color: #4F4F4F;
+        transform: rotate(-0.02deg);
+        margin-top: 8%;
+    }
+
+    button{
+        float: right;
+        margin-right: 10%;
+        margin-top: 5%;
+        background: #F2994A;
+        border-radius: 12px;
+        border: transparent;
+        width: 166px;
+        height: 44px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+    }
+
+}
